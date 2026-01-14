@@ -1,7 +1,4 @@
-<button onclick="GenerateName()" class="btn btn-primary w-100">Check My Royal Name</button>
-
-
-function GenerateName() {
+function generateName() {
     if (!validateInputs()) return;
     const prefix = getPrefix();
     const firstName = getFirstName();
